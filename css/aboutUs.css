@@ -1,4 +1,4 @@
-.RightNav{
+.RightNav {
     width: 25%;
     min-width: 385px;
     height: 100%;
@@ -9,21 +9,25 @@
     top: 0;
     z-index: 100;
 }
-.logoWrap{
+
+.logoWrap {
     text-align: center;
     margin-top: 40px;
 }
-.logo{
+
+.logo {
     width: 150px;
     height: 165px;
 }
-.linkNav{
+
+.linkNav {
     margin-top: 80px;
 }
-.linkNav li{
+
+.linkNav li {
     text-align: center;
-    
 }
+
 .linkNav li a {
     display: inline-block;
     font-size: 22px;
@@ -32,19 +36,23 @@
     border-bottom: 1px solid #aea27a;
     padding: 14px 0;
 }
+
 .linkNav li .linkActive {
     color: #aea27a;
 }
-.linkNav li a:hover{
+
+.linkNav li a:hover {
     color: #aea27a;
 }
-.indFooter{
+
+.indFooter {
     width: 100%;
     padding-bottom: 40px;
     position: absolute;
     bottom: 0;
 }
-.telNumbers{
+
+.telNumbers {
     height: 32px;
     font-size: 22px;
     color: #aea27a;
@@ -52,8 +60,48 @@
     line-height: 32px;
     margin-bottom: 24px;
 }
-.indInf{
+
+.indInf {
     text-align: center;
     font-size: 14px;
     color: #515151;
+}
+
+.LeftContent{
+    width: 75%;
+}
+.ContentTop{
+    text-align: center;
+    margin-top: 60px;
+}
+.ContentTop img{
+    display: inline-block;
+}
+.ContentBottom{
+    width: 100%;
+    margin: 0 auto;
+    border-right: 1px solid #aea27a;
+}
+.contentWrap{
+    padding: 60px;
+    margin: 0 auto;
+}
+.contetnUp{
+    padding: 20px 60px;
+    background-color: #ffffff;
+    box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
+}
+.pInf{
+    font-size: 22px;
+    color: #aea27a;
+    border-bottom: 2px solid #aea27a;
+    padding-bottom: 3px;
+}
+.contetnUp p {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #404040;
+    letter-spacing: 1px;
+    text-indent:25px;
 }
