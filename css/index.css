@@ -1,6 +1,6 @@
-.RightNav{
+.RightNav {
     width: 25%;
-    min-width: 385px;
+    /* min-width: 385px; */
     height: 100%;
     background-color: rgba(255, 255, 255, .76);
     /* background: pink; */
@@ -9,42 +9,48 @@
     top: 0;
     z-index: 100;
 }
-.logoWrap{
+
+.logoWrap {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 7%;
 }
-.logo{
+
+.logo {
     width: 150px;
     height: 165px;
 }
-.linkNav{
-    margin-top: 80px;
+
+.linkNav {
+    margin-top: 4%;
 }
-.linkNav li{
+
+.linkNav li {
     text-align: center;
-    
 }
+
 .linkNav li a {
     display: inline-block;
     font-size: 22px;
     color: #333333;
     width: 150px;
     border-bottom: 1px solid #aea27a;
-    padding: 14px 0;
+    padding: 4% 0;
 }
+
 .linkNav li .linkActive {
     color: #aea27a;
 }
-.linkNav li a:hover{
+
+.linkNav li a:hover {
     color: #aea27a;
 }
-.indFooter{
+
+.indFooter {
     width: 100%;
-    padding-bottom: 40px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 20%;
 }
-.telNumbers{
+
+.telNumbers {
     height: 32px;
     font-size: 22px;
     color: #aea27a;
@@ -52,7 +58,8 @@
     line-height: 32px;
     margin-bottom: 24px;
 }
-.indInf{
+
+.indInf {
     text-align: center;
     font-size: 14px;
     color: #515151;
