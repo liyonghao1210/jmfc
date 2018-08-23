@@ -59,7 +59,7 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .contetnUp {
-        padding: 17px 40px;
+        padding: 12px 40px;
         background-color: #ffffff;
         box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
     }
@@ -73,7 +73,7 @@
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ppWh {
         width: 348px;
-        padding: 17px 40px;
+        padding: 12px 40px;
         background-color: #ffffff;
         box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
     }
@@ -93,7 +93,11 @@
     letter-spacing: 1px;
     text-indent: 25px;
 }
-
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .contetnUp p  {
+        margin-top: 20px;
+    }
+}
 .contentDown {
     position: relative;
     /*width: 336px;*/
@@ -115,6 +119,11 @@
 
 .pInfCont {
     margin-top: 30px;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .pInfCont {
+        margin-top: 20px;
+    }
 }
 .whImgWrap{
     width: 70%;
