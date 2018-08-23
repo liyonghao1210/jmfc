@@ -1,9 +1,14 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-23 15:14:09
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-23 16:16:51
+*/
 .RightNav {
     width: 25%;
     /* min-width: 385px; */
     height: 100%;
     background-color: rgba(255, 255, 255, .76);
-    /* background: pink; */
     position: absolute;
     right: 0;
     top: 0;
@@ -59,18 +64,4 @@
     .indFooter {
         bottom: 3%;
     }
-}
-.telNumbers {
-    height: 32px;
-    font-size: 22px;
-    color: #aea27a;
-    text-align: center;
-    line-height: 32px;
-    margin-bottom: 17px;
-}
-
-.indInf {
-    text-align: center;
-    font-size: 14px;
-    color: #515151;
 }

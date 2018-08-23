@@ -3,58 +3,6 @@
     height: 100%;
 }
 
-.RightNav {
-    width: 25%;
-    /* min-width: 385px; */
-    height: 100%;
-    background-color: rgba(255, 255, 255, .76);
-    /* background: pink; */
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 100;
-}
-
-.logoWrap {
-    text-align: center;
-    margin-top: 12%;
-}
-
-.logo {
-    width: 150px;
-    height: 165px;
-}
-
-.linkNav {
-    margin-top: 20%;
-}
-
-.linkNav li {
-    text-align: center;
-}
-
-.linkNav li a {
-    display: inline-block;
-    font-size: 22px;
-    color: #333333;
-    width: 150px;
-    border-bottom: 1px solid #aea27a;
-    padding: 4% 0;
-}
-
-.linkNav li .linkActive {
-    color: #aea27a;
-}
-
-.linkNav li a:hover {
-    color: #aea27a;
-}
-
-.indFooter {
-    width: 100%;
-    margin-top: 20%;
-}
-
 .telNumbers {
     height: 32px;
     font-size: 22px;
@@ -67,7 +15,7 @@
 .indInf {
     text-align: center;
     font-size: 14px;
-    color: #515151;
+    color: #7c7c7c;
 }
 
 .LeftContent {
@@ -78,7 +26,12 @@
     text-align: center;
     margin-top: 3%;
 }
-
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentTop {
+        text-align: center;
+        margin-top: 2%;
+    }
+}
 .ContentTop img {
     display: inline-block;
 }
@@ -90,17 +43,41 @@
 }
 
 .contentWrap {
-    padding: 40px 80px;
+    padding: 40px 118px;
     margin: 0 auto;
 }
-
-.contetnUp,
-.contentDown {
-    padding: 20px 60px;
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .contentWrap {
+        padding: 25px 40px;
+        margin: 0 auto;
+    }
+}
+.contetnUp {
+    padding: 35px 95px;
     background-color: #ffffff;
     box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
 }
-
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .contetnUp {
+        padding: 17px 40px;
+        background-color: #ffffff;
+        box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
+    }
+}
+.ppWh{
+    width: 348px;
+    padding: 35px 95px;
+    background-color: #ffffff;
+    box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ppWh {
+        width: 348px;
+        padding: 17px 40px;
+        background-color: #ffffff;
+        box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
+    }
+}
 .pInf {
     font-size: 22px;
     color: #aea27a;
@@ -119,7 +96,7 @@
 
 .contentDown {
     position: relative;
-    width: 336px;
+    /*width: 336px;*/
     margin-top: 80px;
 }
 
@@ -127,6 +104,7 @@
     font-size: 16px;
     line-height: 40px;
     color: #3c3c3c;
+    letter-spacing: 1px;
 }
 
 .contTitle {
@@ -138,12 +116,20 @@
 .pInfCont {
     margin-top: 30px;
 }
-
-.whImg {
+.whImgWrap{
+    width: 70%;
     position: absolute;
-    top: -25px;
-    left: 381px;
+    top: -50px;
+    right: 0;
     z-index: -20;
-    height: 255px;
-    max-width: 100%;
+}
+.whImg {
+    height: 305px;
+    width: 100%;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .whImg {
+        height: 257px;
+        width: 100%;
+    }
 }

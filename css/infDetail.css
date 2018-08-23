@@ -1,0 +1,100 @@
+.telNumbers {
+    height: 32px;
+    font-size: 22px;
+    color: #aea27a;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.indInf {
+    text-align: center;
+    font-size: 14px;
+    color: #515151;
+}
+.LeftContent {
+    width: 74%;
+}
+
+.ContentTop {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.ContentTop img {
+    display: inline-block;
+}
+
+.ContentBottom {
+    width: 100%;
+    margin: 0 auto;
+    border-right: 1px solid #dedede;
+    margin-bottom: 3%;
+}
+
+.ContentBottom .detailWrap h3 {
+	font-size: 22px;
+    color: #494949;
+    text-align: center;
+    margin-top: 4%;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentBottom .detailWrap h3 {
+        margin-top: 2%;
+    }
+}
+.detailWrap{
+    padding: 0 5%;
+    padding-bottom: 4%;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .detailWrap {
+        padding-bottom: 1%;
+    }
+}
+.detailTime{
+    font-size: 15px;
+    color: #ababab;
+    text-align: right;
+    margin-top: 2%;
+}
+.detailContent{
+    margin-top: 2%;
+}
+.detailContentP {
+    text-indent: 2em;
+    line-height: 1.8em;
+    font-size: 1.1em;
+    color: #656565;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .detailContentP {
+        line-height: 1.5em;
+    }
+}
+.detailContent h4{
+    font-size: 16px;
+    color: #252525;
+    margin-top: 2%;
+}
+.goBack{
+    display: inline-block;
+    width: 116px;
+    height: 41px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -wekit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: solid 1px #c0a78b;
+    text-align: center;
+    line-height: 41px;
+    font-size: 17px;
+    margin-top: 8%;
+    color: #aea27a;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .goBack {
+        margin-top: 3%;
+    }
+}
