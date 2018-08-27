@@ -1,62 +1,10 @@
-.RightNav {
-    width: 25%;
-    /* min-width: 385px; */
-    height: 100%;
-    background-color: rgba(255, 255, 255, .76);
-    /* background: pink; */
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 100;
-}
-
-.logoWrap {
-    text-align: center;
-    margin-top: 7%;
-}
-
-.logo {
-    width: 150px;
-    height: 165px;
-}
-
-.linkNav {
-    margin-top: 4%;
-}
-
-.linkNav li {
-    text-align: center;
-}
-
-.linkNav li a {
-    display: inline-block;
-    font-size: 22px;
-    color: #333333;
-    width: 150px;
-    border-bottom: 1px solid #aea27a;
-    padding: 4% 0;
-}
-
-.linkNav li .linkActive {
-    color: #aea27a;
-}
-
-.linkNav li a:hover {
-    color: #aea27a;
-}
-
-.indFooter {
-    width: 100%;
-    margin-top: 20%;
-}
-
 .telNumbers {
     height: 32px;
     font-size: 22px;
     color: #aea27a;
     text-align: center;
     line-height: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 17px;
 }
 
 .indInf {
@@ -71,11 +19,22 @@
 
 .ContentTop {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
 }
-
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentTop {
+        text-align: center;
+        margin-top: 2%;
+    }
+}
 .ContentTop img {
     display: inline-block;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentTop img {
+        width: 140px;
+        height: 45px;
+    }
 }
 .ContentBottom {
     width: 100%;
@@ -84,19 +43,45 @@
 }
 
 .contentWrap {
-    padding: 40px 80px;
+    padding: 74px 144px;
     margin: 0 auto;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .contentWrap {
+        padding: 19px 80px;
+        margin: 0 auto;
+    }
 }
 .listInfWrap li{
     border-bottom: 1px solid #e7e7e7;
     padding: 22px 0;
 }
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .listInfWrap li{
+        padding: 16px 0;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .listInfWrap li img{
+        width: 160px;
+        height: 80px;
+    }
+}
+.listInfWrap li:last-child{
+    border-bottom: none;
+}
 .rightContent{
     margin-left: 20px;
 }
 .infTitle{
-    font-size: 20px;
+    font-size: 18px;
     color: #494949;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .infTitle{
+        font-size: 16px;
+        color: #494949;
+    }
 }
 .infTime{
     font-size: 16px;
@@ -105,9 +90,15 @@
 }
 .lookMore a{
     display: inline-block;
-    font-size: 18px;
+    font-size: 17px;
     color: #aea27a;
     margin-top: 15px;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .lookMore a{
+        font-size: 16px;
+        margin-top: 9px;
+    }
 }
 .pages{
     text-align: center;

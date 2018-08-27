@@ -1,0 +1,93 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.telNumbers {
+    height: 32px;
+    font-size: 22px;
+    color: #aea27a;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 17px;
+}
+
+.indInf {
+    text-align: center;
+    font-size: 14px;
+    color: #515151;
+}
+
+.LeftContent {
+    width: 100%;
+}
+
+.ContentTop {
+    width: 74%;
+    text-align: center;
+    margin-top: 5%;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentTop {        
+        margin-top: 2%;
+    }
+}
+.ContentTop img {
+    display: inline-block;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .ContentTop img {
+        width: 100px;
+        height: 40px;
+    }
+}
+.bg_img{
+    margin-top: 3.1%;
+}
+.bg_img img{
+    width: 100%;
+    height: 570px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .bg_img img{
+        width: 100%;
+        height: 380px;
+    }
+}
+
+.ContentBottom{
+    width: 69%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.telAddress{
+    margin-top: 8px;
+}
+.telAddress p{
+    color: #000000;
+    font-size: 0.9em;
+}
+.address{
+    margin-top: 20px;
+}
+.logoSmall img{
+    width: 320px;
+}
+@media screen and (min-width: 960px) and (max-width: 1366px) {
+    .logoSmall img{
+        width: 280px;
+    }
+}
+.box{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+.box li{
+    flex: 1;
+    flex-shrink: 1;
+    /* default 1 */
+}
