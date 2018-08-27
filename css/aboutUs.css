@@ -64,7 +64,11 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .contetnUp {
+<<<<<<< HEAD
         padding: 17px 40px;
+=======
+        padding: 12px 40px;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
         background-color: #ffffff;
         box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
     }
@@ -78,7 +82,11 @@
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ppWh {
         width: 348px;
+<<<<<<< HEAD
         padding: 17px 40px;
+=======
+        padding: 12px 40px;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
         background-color: #ffffff;
         box-shadow: -2px 3px 16px 10px rgba(69, 0, 35, 0.05);
     }
@@ -99,6 +107,7 @@
     text-indent: 25px;
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
+<<<<<<< HEAD
     .contetnUp p {
         line-height: 26px;
         font-size: 14px;
@@ -106,6 +115,12 @@
     }
 }
 
+=======
+    .contetnUp p  {
+        margin-top: 20px;
+    }
+}
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .contentDown {
     position: relative;
     /*width: 336px;*/
@@ -123,12 +138,15 @@
     line-height: 40px;
     color: #3c3c3c;
     letter-spacing: 1px;
+<<<<<<< HEAD
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .contentDown p {
         font-size: 14px;
         line-height: 34px;
     }
+=======
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 }
 .contTitle {
     font-size: 16px;
@@ -141,7 +159,11 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .pInfCont {
+<<<<<<< HEAD
         margin-top: 14px;
+=======
+        margin-top: 20px;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }
 .whImgWrap{
@@ -151,18 +173,25 @@
     right: 0;
     z-index: -20;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .whImgWrap{
         top: -25px;
     }
 }
+=======
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .whImg {
     height: 305px;
     width: 100%;
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .whImg {
+<<<<<<< HEAD
         height: 218px;
+=======
+        height: 257px;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
         width: 100%;
     }
 }

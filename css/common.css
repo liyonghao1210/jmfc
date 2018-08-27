@@ -2,13 +2,20 @@
 * @Author: Marte
 * @Date:   2018-08-23 15:14:09
 * @Last Modified by:   Marte
+<<<<<<< HEAD
 * @Last Modified time: 2018-08-24 14:44:24
+=======
+* @Last Modified time: 2018-08-23 16:16:51
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 */
 .RightNav {
     width: 25%;
     /* min-width: 385px; */
     height: 100%;
+<<<<<<< HEAD
     min-height: 600px;
+=======
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     background-color: rgba(255, 255, 255, .76);
     position: absolute;
     right: 0;
@@ -20,12 +27,16 @@
     text-align: center;
     margin-top: 12%;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .logoWrap {
         text-align: center;
         margin-top: 4%;
     }
 }
+=======
+
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .logo {
     width: 150px;
     height: 165px;
@@ -39,11 +50,15 @@
 .linkNav {
     margin-top: 20%;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .linkNav {
         margin-top: 6%;
     }
 }
+=======
+
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .linkNav li {
     text-align: center;
 }
@@ -74,7 +89,10 @@
     .indFooter {
         bottom: 3%;
     }
+<<<<<<< HEAD
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     
+=======
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 }

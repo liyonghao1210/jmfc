@@ -24,7 +24,11 @@
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ContentTop {
         text-align: center;
+<<<<<<< HEAD
         margin-top: 2%;
+=======
+        margin-top: 3%;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }
 .ContentTop img {
@@ -56,6 +60,7 @@
     border-bottom: 1px solid #e7e7e7;
     padding: 22px 0;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .listInfWrap li{
         padding: 16px 0;
@@ -67,6 +72,8 @@
         height: 80px;
     }
 }
+=======
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .listInfWrap li:last-child{
     border-bottom: none;
 }

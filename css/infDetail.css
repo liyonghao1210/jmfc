@@ -24,12 +24,16 @@
 .ContentTop img {
     display: inline-block;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ContentTop img {
         width: 140px;
         height: 45px;
     }
 }
+=======
+
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .ContentBottom {
     width: 100%;
     margin: 0 auto;
@@ -45,8 +49,12 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ContentBottom .detailWrap h3 {
+<<<<<<< HEAD
         font-size: 20px;
         margin-top: 1.5%;
+=======
+        margin-top: 2%;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }
 .detailWrap{
@@ -64,6 +72,7 @@
     text-align: right;
     margin-top: 2%;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .detailTime{
         margin-top: 1%;
@@ -77,6 +86,11 @@
         margin-top: 1%;
     }
 }
+=======
+.detailContent{
+    margin-top: 2%;
+}
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .detailContentP {
     text-indent: 2em;
     line-height: 1.8em;
@@ -85,8 +99,12 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .detailContentP {
+<<<<<<< HEAD
         font-size: 1em;
         line-height: 1.55em;
+=======
+        line-height: 1.5em;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }
 .detailContent h4{
@@ -112,9 +130,13 @@
 }
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .goBack {
+<<<<<<< HEAD
         margin-top: 2%;
         width: 100px;
         line-height: 35px;
         height: 35px;
+=======
+        margin-top: 3%;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }

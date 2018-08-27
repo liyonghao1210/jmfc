@@ -1,6 +1,10 @@
 /*导入头部和尾部*/
     $(document).ready(function(){
        $(".RightNav").load("header.html",function(){
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
           var urlstr = location.href;
             var urlstatus=false;
             console.log(urlstr)

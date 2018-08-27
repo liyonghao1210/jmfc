@@ -27,6 +27,7 @@
     text-align: center;
     margin-top: 5%;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .ContentTop {        
         margin-top: 2%;
@@ -41,6 +42,13 @@
         height: 40px;
     }
 }
+=======
+
+.ContentTop img {
+    display: inline-block;
+}
+
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
 .bg_img{
     margin-top: 3.1%;
 }
@@ -52,7 +60,11 @@
 @media screen and (min-width: 960px) and (max-width: 1366px) {
     .bg_img img{
         width: 100%;
+<<<<<<< HEAD
         height: 380px;
+=======
+        height: auto;
+>>>>>>> 7d209c995c189f73a10d8f7cd04b0ae56c58fc94
     }
 }
 
